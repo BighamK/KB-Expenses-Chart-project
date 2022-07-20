@@ -1,8 +1,36 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+body {
+    background-color: hsl(27, 66%, 92%);
+}
 
 h3 {
 font-family: 'DM Sans', sans-serif;
-font-size: 20px;
+font-size: 18px;
 }
+
+.balance {
+    background-color: hsl(10, 79%, 65%);
+}
+
+.spending {
+    background-color: hsl(33, 100%, 98%);
+}
+
+.bargraph {
+background-color: hsl(186, 34%, 60%);
+}
+
+.bargraphcolors {
+    background-color: hsl(10, 79%, 65%);
+}
+
+.bargraphcolors2 {
+    background-color: hsl(25, 47%, 15%);
+}
+
+.total {
+    color: hsl(28, 10%, 53%);
+}
+
