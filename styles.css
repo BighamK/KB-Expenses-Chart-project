@@ -3,6 +3,7 @@
 
 body {
     background-color: hsl(27, 66%, 92%);
+    text-align: center;
 }
 
 h3 {
@@ -12,25 +13,45 @@ font-size: 18px;
 
 .balance {
     background-color: hsl(10, 79%, 65%);
+    padding: 18px;
+border-radius: 8px;
+width: 50%;
+margin-left: 200px;
+color: hsl(33, 100%, 98%);
 }
 
 .spending {
     background-color: hsl(33, 100%, 98%);
+    padding: 15px;
+border-radius: 8px;
+width: 50%;
+margin-left: 200px;
+}
+
+.week {
+    color: hsl(28, 10%, 53%); ;
 }
 
 .bargraph {
 background-color: hsl(184, 54%, 80%);
+width: 25%;
+margin-left: 150px;
 }
 
 .bargraphcolors {
     background-color: hsl(10, 79%, 65%);
+    width: 25%;
+    margin-left: 150px;
 }
 
 .bargraphcolors2 {
     background-color: hsl(25, 47%, 15%);
+    width: 25%;
+    margin-left: 150px;
 }
 
 .total {
     color: hsl(28, 10%, 53%);
+    margin-bottom: 30px;
 }
 
