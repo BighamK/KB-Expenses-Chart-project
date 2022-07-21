@@ -42,8 +42,8 @@ font-weight:lighter
 
 .balance {
     background-color: var(--soft-red);
-    padding-top: 18px;
-border-radius: 8px;
+    padding: 15px;
+border-radius: 15px;
 width: 50%;
 margin: auto;
 color: var(--very-pale-orange);
@@ -65,9 +65,13 @@ img {
 .spending {
     background-color: var(--very-pale-orange);
     padding: 15px;
-border-radius: 8px;
+border-radius: 15px;
 width: 50%;
 margin: auto;
+}
+
+#canvas {
+    width: 50%;
 }
 
 .week {
