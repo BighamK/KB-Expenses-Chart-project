@@ -16,7 +16,7 @@ font-size: 18px;
     padding: 18px;
 border-radius: 8px;
 width: 50%;
-margin-left: 200px;
+margin: auto;
 color: hsl(33, 100%, 98%);
 }
 
@@ -25,7 +25,7 @@ color: hsl(33, 100%, 98%);
     padding: 15px;
 border-radius: 8px;
 width: 50%;
-margin-left: 200px;
+margin: auto;
 }
 
 .week {
@@ -35,19 +35,19 @@ margin-left: 200px;
 .bargraph {
 background-color: hsl(184, 54%, 80%);
 width: 25%;
-margin-left: 150px;
+margin: auto;
 }
 
 .bargraphcolors {
     background-color: hsl(10, 79%, 65%);
     width: 25%;
-    margin-left: 150px;
+    margin: auto;
 }
 
 .bargraphcolors2 {
     background-color: hsl(25, 47%, 15%);
     width: 25%;
-    margin-left: 150px;
+    margin: auto;
 }
 
 .total {
