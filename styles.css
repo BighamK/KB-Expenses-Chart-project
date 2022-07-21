@@ -1,27 +1,69 @@
+:root {
+    /* primary colors */
+    --soft-red: hsl(10, 79%, 65%);
+    --cyan: hsl(186, 34%, 60%);
+  
+    /* neutral colors */
+    --dark-brown: hsl(25, 47%, 15%);
+    --medium-brown: hsl(28, 10%, 53%);
+    --cream: hsl(27, 66%, 92%);
+    --very-pale-orange: hsl(33, 100%, 98%);
+  
+    --bar-hover: hsl(10, 100%, 76%);  
+}
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body {
-    background-color: hsl(27, 66%, 92%);
+    background-color: var(--cream);
     text-align: center;
+    padding-top: 50px;
+}
+
+h1, h2, h3 {
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 23px;
 }
 
 h3 {
-font-family: 'DM Sans', sans-serif;
-font-size: 18px;
+font-size: 12px;
+font-weight:lighter
 }
 
+
 .balance {
-    background-color: hsl(10, 79%, 65%);
-    padding: 18px;
+    background-color: var(--soft-red);
+    padding-top: 18px;
 border-radius: 8px;
 width: 50%;
 margin: auto;
-color: hsl(33, 100%, 98%);
+color: var(--very-pale-orange);
+}
+
+.row {
+    display: flex;
+}
+.column {
+    flex: 50%;
+}
+
+img {
+    max-width: 50px;
+    height: auto;
+    padding-top: 12px;
 }
 
 .spending {
-    background-color: hsl(33, 100%, 98%);
+    background-color: var(--very-pale-orange);
     padding: 15px;
 border-radius: 8px;
 width: 50%;
@@ -29,7 +71,7 @@ margin: auto;
 }
 
 .week {
-    color: hsl(28, 10%, 53%); ;
+    color: var(--medium-brown) ;
 }
 
 .bargraph {
@@ -39,7 +81,7 @@ margin: auto;
 }
 
 .bargraphcolors {
-    background-color: hsl(10, 79%, 65%);
+    background-color: var(--bar-hover);
     width: 25%;
     margin: auto;
 }
@@ -54,4 +96,6 @@ margin: auto;
     color: hsl(28, 10%, 53%);
     margin-bottom: 30px;
 }
+
+
 
