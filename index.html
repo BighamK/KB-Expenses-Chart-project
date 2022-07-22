@@ -7,9 +7,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="/styles.css" />
+  <link rel="myChart" href="chart.js">
   <title>Frontend Mentor | Expenses chart component</title>
 </head>
 <body>
@@ -36,33 +37,13 @@
   <h2>
     Spending - Last 7 days
   </h2>
-<div class="container">
-  <canvas id="myChart" width="300" height="300"></canvas>
-</div>
-<script type="text/javascript" src="/chart.js"></script>
+   
+  
+  <div>
+   <canvas id="myChart"> </canvas>
+   <script type="text/javascript" src="/chart.js"></script>
+ </div>
 
-  <div class="bargraph">
-    Bar graph info blue
-  </div> 
-  <br />
-  <div class="bargraphcolors">
-    Info orange
-  </div>
-    
-  <br />
-  <div class="bargraphcolors2">
-    Info brown
-  </div>
-
-  <div class="week">
-    mon
-    tue
-    wed
-    thu
-    fri
-    sat
-    sun
-  </div>
   
   <hr>
   

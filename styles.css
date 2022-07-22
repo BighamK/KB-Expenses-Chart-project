@@ -70,8 +70,11 @@ width: 50%;
 margin: auto;
 }
 
-#canvas {
-    width: 50%;
+#myChart{
+    padding: 5px;
+    height: max-content;
+    cursor: pointer;
+    color: var(--dark-brown);
 }
 
 .week {
