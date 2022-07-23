@@ -74,7 +74,6 @@ margin: auto;
     padding: 5px;
     height: max-content;
     cursor: pointer;
-    color: var(--dark-brown);
 }
 
 .week {
